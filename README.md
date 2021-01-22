@@ -1,18 +1,18 @@
-![portada](https://github.com/ironhack-datalabs/datamad1020-rev/blob/master/projects/W2-Pandas-project/portada.jpg)
+![portada](https://github.com/Ironhack-Data-Madrid-Enero-2021/w2-pandas-project/blob/master/images/portada.jpg)
 
 # W2 Project - Data cleaning & wrangling
 
-The goal of this project is to combine everything you have learned about data wrangling, cleaning, and manipulation with Pandas so you can see how it all works together. For this project, you will start with this messy data set Shark Attack. You will need to import it, use your data wrangling skills to clean it up, prepare it to be analyzed, and then export it as a clean CSV data file. Some graphs to better understand the data will surely be useful!!
+The goal of this project is to combine everything you have learned about data wrangling, cleaning, and manipulation with Pandas so you can see how it all works together. For this project, you will start with this messy data set Shark Attack. You will need to download it, import it, use your data wrangling skills to clean it up, prepare it to be analyzed, and then export it as a clean CSV data file. Some graphs to better understand the data will surely be useful!!
 
-## TODO's
+## TO DO's
 
-1. Decide a hypothesis with which you will clean the data
+1. Decide a hypothesis (or hypotheses) with which you will clean the data
 2. Explore the data and write down what you have found
    - you can use: `df.describe()`, `df["column"]`, etc.
 3. Draw at least two graphs that are insightful. 
 4. Use at least 5 data cleaning techniques inside a file named `clean.ipynb`
    - null values, columns drop, duplicated data, string manipulation, apply fn, categorize, regex, etc.
-5. Show data that validates the conclusions based on your hypotesis in a file named `analysis.ipynb`
+5. Show data that validates the conclusions based on your hypoteses in a file named `analysis.ipynb`
 6. Build a compelling story-telling around your findings. Think of your stakeholders and convince them with your conclusions! (Some slides with few text and pretty plots are normally useful)
 
 ## Suggested Ways to Get Started
@@ -26,11 +26,13 @@ The goal of this project is to combine everything you have learned about data wr
 
 ## How to deliver the project
 
-1. Create a new repo with the name `data-cleaning-pandas` in your github account.
-   - Create a `README.md` file on repo root with project documentation
+1. Create a new repo with the name `data-cleaning-pandas` on your github account.
+   - Create a `README.md` file on repo root with project documentation. Make sure to include as much useful information as possible. Someone that finds the README.md should be able to fully get a gist of the project without browsing your files.
+   - Include a `.gitignore`
    - At least 1 jupyter notebook is required
+   - Including your functions in a `src.py` is very, very highly reccommended (maybe even mandatory, check with your instructors)
    - **DO NOT UPLOAD SHARKs ATTACK DATASET TO GITHUB**
-2. Do a `PR` with the link of your repo copy pasted inside `m1/pandas-project/PROJECT-REPO.md` on our labs repo.
+2. Open an `Issue` on this repo and paste your own repo's link.
 
 ## Links & Resources
 
